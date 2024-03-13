@@ -1,2 +1,3 @@
 .eggs/
 helpybmc.egg-info/
+helpybmc/__pycache__/
