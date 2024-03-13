@@ -8,4 +8,8 @@ server = 'student'
 message = 'default'
 
 # Send the email
-sendhelpy.send(sender_email=sender_email, password=password, message=message, server=server)
+try:
+    succes = sendhelpy.send(sender_email=sender_email, password=password, message=message, server=server)
+    print(succes)
+except:
+    print('Error sending the email')
